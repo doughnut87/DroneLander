@@ -11,4 +11,10 @@
         public const double StartingFuel = 1000.0;
         public const double StartingThrust = 0.0;
     }
+
+    public static class MobileCenterConstants
+    {
+        public const string AndroidAppId = "e6427f43-d67d-4412-ad87-c9c0ab3b18d7";
+        public const string iOSAppId = "";
+    }
 }
