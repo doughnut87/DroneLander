@@ -15,6 +15,13 @@ namespace DroneLanderNew
     {
         public static MainViewModel ViewModel { get; set; }
 
+        public static Services.IAuthenticationService Authenticator { get; private set; }
+
+        public static void InitializeAuthentication(Services.IAuthenticationService authenticator)
+        {
+            Authenticator = authenticator;
+        }
+
         public App()
         {
             InitializeComponent();

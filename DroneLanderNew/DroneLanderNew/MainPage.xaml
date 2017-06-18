@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Drone Lander"
-             xmlns:local="clr-namespace:DroneLander"
              xmlns:effects="clr-namespace:DroneLanderNew.Effects;assembly=DroneLanderNew"
              BackgroundImage="drone_lander_back.jpg"
              x:Class="DroneLanderNew.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem AutomationId="SignInLabel" Text="{Binding SignInLabel}" Command="{Binding SignInCommand}"/>
+    </ContentPage.ToolbarItems>
 
     <Grid>
         <Grid.RowDefinitions>

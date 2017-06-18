@@ -17,4 +17,14 @@
         public const string AndroidAppId = "e6427f43-d67d-4412-ad87-c9c0ab3b18d7";
         public const string iOSAppId = "";
     }
+
+    public static class MobileServiceConstants
+    {
+        public const string AppUrl = "https://dronelandermobile999.azurewebsites.net";
+    }
+    public static class TelemetryConstants
+    {
+        public const string DisplayName = "DOGE";
+        public const string Tagline = "such land. much control. amaze.";
+    }
 }
